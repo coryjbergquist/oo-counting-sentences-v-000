@@ -18,7 +18,7 @@ class String
     new_array = []
   end_array = ""
 
-new_array << self.split(".!?")
+new_array = self.split(".!?")
 new_array
 binding.pry
 
