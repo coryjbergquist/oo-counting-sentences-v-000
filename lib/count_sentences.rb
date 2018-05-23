@@ -18,7 +18,7 @@ class String
     new_array = []
   end_array = ""
 
-self.split(".", "!", "?")
+self.split(".!?")
 binding.pry
 
 
