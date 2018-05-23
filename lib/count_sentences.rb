@@ -15,16 +15,8 @@ class String
   end
 
   def count_sentences
-    new_array = []
-    new_array << self.strip.split(/[^\.!?]+[\.!?]/)
 
-binding.pry
-
-
-
-
-
-    #self.scan(/[^\.!?]+[\.!?]/).map(&:strip).count
+  self.scan(/[^\.!?]+[\.!?]/).count
   end
 
 end
