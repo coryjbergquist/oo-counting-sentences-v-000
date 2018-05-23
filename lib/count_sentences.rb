@@ -20,6 +20,7 @@ self.split.each do |x|
   if x == ""
 
   else num += 1
+  end
 end
 num
 
