@@ -19,11 +19,9 @@ class String
 self.split.each do |x|
   new_array << x
 end
-new_array - [""]
+new_array.reject(&:empty?)
 new_array.count
-
 
     #self.scan(/[^\.!?]+[\.!?]/).map(&:strip).count
   end
-new_array
 end
