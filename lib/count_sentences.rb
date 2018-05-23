@@ -22,9 +22,10 @@ self.split.each do |x|
 end
 
 new_array.reject { |c| c.empty? }
-
+"poop"
 
 
     #self.scan(/[^\.!?]+[\.!?]/).map(&:strip).count
   end
+
 end
