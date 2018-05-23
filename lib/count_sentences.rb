@@ -15,7 +15,11 @@ class String
   end
 
   def count_sentences
-  self.split.compact.count - [""]
+    new_array = []
+new_array << self.split
+new_array.compact
+new_array.count
+
     #self.scan(/[^\.!?]+[\.!?]/).map(&:strip).count
   end
 
