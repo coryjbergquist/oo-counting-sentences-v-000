@@ -18,7 +18,9 @@ class String
     new_array = []
   end_array = ""
 
-self.split(".", "!", "?").each do |x|
+self.split(".", "!", "?")
+binding.pry
+each do |x|
 
   new_array << x
 
