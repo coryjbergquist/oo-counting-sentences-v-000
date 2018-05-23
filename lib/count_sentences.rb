@@ -19,6 +19,7 @@ class String
     if self == " "
 
     else self.count
+    end
 
     #self.scan(/[^\.!?]+[\.!?]/).map(&:strip).count
   end
