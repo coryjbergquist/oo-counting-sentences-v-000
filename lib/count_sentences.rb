@@ -15,6 +15,7 @@ class String
   end
 
   def count_sentences
+    number = ""
     new_array = []
     new_array << self.split
     new_array.each do |x|
