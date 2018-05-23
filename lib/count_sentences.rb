@@ -16,7 +16,9 @@ class String
 
   def count_sentences
     new_array = []
-new_array << self.split
+self.each do |x|
+end
+  new_array << x
 binding.pry
 new_array.compact
 new_array.count
