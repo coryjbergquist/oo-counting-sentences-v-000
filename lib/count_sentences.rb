@@ -20,14 +20,8 @@ class String
 
 self.split(".", "!", "?")
 binding.pry
-each do |x|
-
-  new_array << x
-
-end
 
 
-new_array.count
 
 
 
