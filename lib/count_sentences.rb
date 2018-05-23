@@ -24,7 +24,7 @@ self.split("  ").each do |x|
 end
 
 
-new_array
+new_array.count
 
 
 
