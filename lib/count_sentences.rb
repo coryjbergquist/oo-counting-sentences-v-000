@@ -15,8 +15,8 @@ class String
   end
 
   def count_sentences
-self.squeeze(".!?").split.count
-#self.squeeze(".!?").scan(/[^\.!?]+[\.!?]/).count
+
+self.squeeze(".!?").scan(/[^\.!?]+[\.!?]/).count
 
   end
 
