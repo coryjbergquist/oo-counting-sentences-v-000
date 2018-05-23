@@ -24,7 +24,7 @@ self.strip.split(" ").each do |x|
 end
 
 
-new_array.strip.count
+new_array.to_s.strip
 
 
 
