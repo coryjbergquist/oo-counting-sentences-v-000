@@ -22,8 +22,9 @@ class String
 
     else number = new_array.count
     end
+    end
    number
     #self.scan(/[^\.!?]+[\.!?]/).map(&:strip).count
   end
-  
+
 end
