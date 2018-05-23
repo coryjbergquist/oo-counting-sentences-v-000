@@ -21,7 +21,7 @@ self.split.each do |x|
   new_array << x
 end
 end_array <<
-new_array.reject(&:empty?)
+new_array.reject(&:empty?).to_s
 
 
     #self.scan(/[^\.!?]+[\.!?]/).map(&:strip).count
