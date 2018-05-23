@@ -21,7 +21,7 @@ self.split.each do |x|
 end
 new_array.compact
 new_array.count
-binding.pry
+
 
     #self.scan(/[^\.!?]+[\.!?]/).map(&:strip).count
   end
