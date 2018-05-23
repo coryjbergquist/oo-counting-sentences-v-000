@@ -18,13 +18,13 @@ class String
     new_array = []
   end_array = ""
 
-self.strip.split(" ").each do |x|
+self.split(" ").each do |x|
   new_array << x
 
 end
 
 
-new_array.to_s.strip
+new_array.count
 
 
 
