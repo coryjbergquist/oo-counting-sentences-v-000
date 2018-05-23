@@ -18,8 +18,8 @@ class String
     new_array = []
 new_array << self.split
 new_array.compact
-binding.pry
 new_array.count
+binding.pry
 
     #self.scan(/[^\.!?]+[\.!?]/).map(&:strip).count
   end
