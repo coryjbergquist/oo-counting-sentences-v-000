@@ -25,5 +25,5 @@ new_array.count
 
     #self.scan(/[^\.!?]+[\.!?]/).map(&:strip).count
   end
-
+new_array
 end
