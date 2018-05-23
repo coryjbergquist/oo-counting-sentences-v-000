@@ -19,7 +19,7 @@ class String
   end_array = ""
 
 self.split(".", "!", "?").each do |x|
-  if x != 
+
   new_array << x
 
 end
