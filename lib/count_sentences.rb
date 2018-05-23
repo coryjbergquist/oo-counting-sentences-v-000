@@ -19,7 +19,6 @@ class String
 self.split.each do |x|
   new_array << x
 end
-binding.pry
 new_array.compact
 new_array.count
 binding.pry
