@@ -15,10 +15,12 @@ class String
   end
 
   def count_sentences
-    self.split
-    if self == " "
+    new_array = []
+    new_array << self.split
+    new_array.each do |x| 
+      if x == " "
 
-    else self.count
+    else number = new_array.count
     end
 
     #self.scan(/[^\.!?]+[\.!?]/).map(&:strip).count
