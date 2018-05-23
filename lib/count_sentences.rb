@@ -17,12 +17,13 @@ class String
   def count_sentences
     new_array = []
     new_array << self.split
-    new_array.each do |x| 
+    new_array.each do |x|
       if x == " "
 
     else number = new_array.count
     end
-
+   number
     #self.scan(/[^\.!?]+[\.!?]/).map(&:strip).count
   end
+  
 end
