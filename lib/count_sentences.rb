@@ -16,7 +16,7 @@ class String
 
   def count_sentences
     new_array = []
-    new_array << self.strip.split(".!?")
+    new_array << self.strip.split(/[^\.!?]+[\.!?]/)
 
 binding.pry
 
