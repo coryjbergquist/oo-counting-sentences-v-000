@@ -19,7 +19,7 @@ class String
   end_array = ""
 
 new_array = self.split(".!?")
-new_array.count
+new_array
 binding.pry
 
 
