@@ -15,13 +15,13 @@ class String
   end
 
   def count_sentences
-    number = ""
+    number = 0
     new_array = []
     new_array << self.split
     new_array.each do |x|
       if x == " "
 
-    else number = new_array.count
+    else number += 1
     end
     end
    number
