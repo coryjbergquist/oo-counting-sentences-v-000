@@ -21,8 +21,8 @@ self.split.each do |x|
   new_array << x
 end
 
-new_array.reject { |c| c.empty? }
-"poop"
+return new_array.reject { |c| c.empty? }
+
 
 
     #self.scan(/[^\.!?]+[\.!?]/).map(&:strip).count
