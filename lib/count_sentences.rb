@@ -15,9 +15,8 @@ class String
   end
 
   def count_sentences
-new_array = []
-new_array << self.split
-new_array.count
+  self.split.count
+
 
 
   #self.scan(/[^\.!?]+[\.!?]/).count
